@@ -1,2 +1,4 @@
 node_modules/
-build/
+.idea/
+build/bundle.js
+build/bundle.js.map

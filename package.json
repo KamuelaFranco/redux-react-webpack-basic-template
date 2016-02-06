@@ -23,7 +23,9 @@
   "scripts": {
     "serve": "node server.js",
     "start": "node ./node_modules/webpack/bin/webpack.js --watch & node server.js",
-    "build": "node ./node_modules/webpack/bin/webpack.js"
+    "build": "node ./node_modules/webpack/bin/webpack.js",
+    "build-prod": "NODE_ENV=production webpack --config webpack.config.prod.js",
+    "webpack-dev-server": "webpack-dev-server --content-base build/"
   },
   "author": "Kamuela Franco",
   "license": "MIT"
