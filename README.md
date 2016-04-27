@@ -1,4 +1,4 @@
-# Redux + React Basic Template
+# Redux + React + Webpack + Immutable + Mocha/Expect Starter Template
 ## USAGE:
 ```
 npm i && npm start
