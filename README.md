@@ -1,6 +1,8 @@
 # Redux + React + Webpack + Immutable + Mocha/Expect Starter Template
 ## USAGE:
 ```
+git clone https://github.com/KamuelaFranco/redux-react-webpack-basic-template.git
+cd redux-react-webpack-basic-template
 npm i && npm start
 open localhost:8080
 ```
