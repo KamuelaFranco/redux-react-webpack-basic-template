@@ -4,8 +4,8 @@ const secondSubReducer = require('./secondSubReducer');
 
 // Create a root reducer and expose it for store creation
 const rootReducer = combineReducers({
-    firstSubReducer,
-    secondSubReducer
+  firstSubReducer,
+  secondSubReducer,
 });
 
 module.exports = rootReducer;
