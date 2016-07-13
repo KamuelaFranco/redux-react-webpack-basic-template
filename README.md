@@ -1,4 +1,4 @@
-# Redux + React + Webpack + Immutable + Mocha/Expect Starter Template
+# ES2016 Redux + React + Webpack + Immutable + AVA + AirBnb ESLint Template
 ## USAGE:
 ```
 git clone https://github.com/KamuelaFranco/redux-react-webpack-basic-template.git
@@ -7,7 +7,7 @@ npm i && npm start
 open localhost:8080
 ```
 
-This has been updated to include the latest version of Babel, Immutable.js, React, Redux, and Mocha, Expect, and React Add-ons for testing. Also includes common loaders for CSS and JSON.
+This has been updated to include the latest version of Babel, Immutable.js, React, Redux, and AVA, and React Add-ons for testing. Also includes common loaders for CSS and JSON.
 
 ## TODO:
 * Implement new version of Webpack when it is released to default dead code elimination

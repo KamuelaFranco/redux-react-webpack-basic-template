@@ -1,12 +1,12 @@
-require('./style.css');
+import './style.css';
 
-const React = require('react');
-const ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const { Provider } = require('react-redux');
-const App = require('./containers/App');
+import { Provider } from 'react-redux';
+import App from './containers/App';
 
-const store = require('./store');
+import store from './store';
 
 window.addEventListener('load', () => {
   ReactDOM.render(
