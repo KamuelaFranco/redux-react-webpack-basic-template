@@ -30,13 +30,16 @@
     "react-addons-test-utils": "^15.0.1",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.1",
-    "webpack-dev-server": "^1.14.1"
+    "webpack-dev-server": "^1.14.1",
+    "webpack-validator": "^2.2.2"
   },
   "scripts": {
     "test": "./node_modules/ava/cli.js --watch",
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --env.dev --content-base build",
     "build": "node ./node_modules/webpack/bin/webpack.js --env.dev",
-    "build-production": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --config webpack.config.prod.js"
+    "build-production": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --config webpack.config.prod.js",
+    "validate-webpack:dev": "node ./node_modules/webpack-validator/dist/bin/webpack-validator.js webpack.config.js --env.dev",
+    "validate-webpack:prod": "node ./node_modules/webpack-validator/dist/bin/webpack-validator.js webpack.config.prod.js --env.prod"
   },
   "author": "Kamuela Franco <kamuela.franco@gmail.com>",
   "license": "MIT"

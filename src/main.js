@@ -14,5 +14,5 @@ window.addEventListener('load', () => {
       <App />
     </Provider>,
     document.getElementById('react-mount')
-    );
+  );
 });
